@@ -20,6 +20,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_surprised_pikachu_meme" />
 
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.crisspian.fragment_guide_01.PrimerFragmento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
